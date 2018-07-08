@@ -39,10 +39,10 @@ def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
   obj = monopoly_with_third_tier
   
-  obj[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
-  obj[:railroads][:names][:pennsylvania_railroad][:mortgage_value] = "$200"
-  obj[:railroads][:names][:b_and_o_railroad][:mortgage_value] = "$300"
-  obj[:railroads][:names][:shortline][:mortgage_value] = "$400"
+  obj[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
+  obj[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$200"
+  obj[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$300"
+  obj[:railroads][:names][:shortline]["mortgage_value"] = "$400"
   
   obj
 end
