@@ -41,7 +41,7 @@ def monopoly_with_fourth_tier
   
   obj[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
   obj[:railroads][:names][:pennsylvania_railroad][:mortgage_value] = "$100"
-  obj[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
+  obj[:railroads][:names][:b_and_o_railroad][:mortgage_value] = "$100"
   obj[:railroads][:names][:reading_railroad][:mortgage_value] = "$100"
   
   describe "fourth level of monopoly hash" do
