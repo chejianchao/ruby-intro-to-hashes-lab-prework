@@ -28,7 +28,8 @@ def monopoly_with_third_tier
     
     monopoly_with_second_tier[:railroads][:names][:reading_railroad] = {}
     monopoly_with_second_tier[:railroads][:names][:pennsylvania_railroad] = {}
-    monopoly_with_second_tier[:railroads][:names][:pennsylvania_railroad] = {}
+    monopoly_with_second_tier[:railroads][:names][:b_and_o_railroad] = {}
+    monopoly_with_second_tier[:railroads][:names][:b_and_o_railroad] = {}
 
       it "sets the 3rd key of the :names hash to a symbol, :b_and_o_railroad, whose value is an empty hash" do
 
